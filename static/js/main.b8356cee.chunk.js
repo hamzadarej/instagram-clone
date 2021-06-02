@@ -1,2 +1,0 @@
-(this["webpackJsonpinstagram-clone"]=this["webpackJsonpinstagram-clone"]||[]).push([[0],{10:function(e,n,t){"use strict";t.r(n);var c=t(1),r=t.n(c),s=t(3),a=t.n(s),i=(t(8),t(0));var o=function(){return Object(i.jsx)("div",{className:"App",children:"hey"})};a.a.render(Object(i.jsx)(r.a.StrictMode,{children:Object(i.jsx)(o,{})}),document.getElementById("root"))},8:function(e,n,t){}},[[10,1,2]]]);
-//# sourceMappingURL=main.b8356cee.chunk.js.map
