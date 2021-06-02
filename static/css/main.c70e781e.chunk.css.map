@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/sass/main.scss"],"names":[],"mappings":"AAAA,KACI,qBAAwB","file":"main.c70e781e.chunk.css","sourcesContent":["body {\n    background-color: yellow;\n}"]}
