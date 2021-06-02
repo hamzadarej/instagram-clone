@@ -9,7 +9,7 @@ import {
 const Nav = () => {
   return (
     <div className="nav">
-      <div class="content">Instagram</div>
+      <h2 class="content">𝕴𝖓𝖘𝖙𝖆𝖌𝖗𝖆𝖒</h2>
       <div class="content"><input placeholder="search" type="search"/></div>
       <div class="content">
         <FontAwesomeIcon icon={faHome} />
