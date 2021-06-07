@@ -6,20 +6,29 @@ import {
   faCompass,
   
 } from "@fortawesome/free-solid-svg-icons";
-const Nav = () => {
+
+const Nav = (props) => {
+  const { Data }=props;
+  const imgPic =Data.map((obj)=>{
+    const { img } = obj;
+    
+ 
   return (
     <div className="nav">
-      <h2 class="content">𝕴𝖓𝖘𝖙𝖆𝖌𝖗𝖆𝖒</h2>
-      <div class="content"><input placeholder="search" type="search"/></div>
-      <div class="content">
+      <h1 className="content">ⁱⁿˢᵗᵃᵍʳᵃᵐ</h1>
+      <div className="content"> <input placeholder="search" type="search"/></div>
+      <div className="content">
         <FontAwesomeIcon icon={faHome} />
         <FontAwesomeIcon icon={faLocationArrow} />
         <FontAwesomeIcon icon={faCompass} />
         <FontAwesomeIcon icon={faHeart} />
-        <span className="pic" ></span>
+        <span  ></span>
+        <img src={img} alt="profilphoto" className="pic"></img>
       </div>
      
     </div>
-  );
+  ); } )
+  return <div>{imgPic}</div>
+  
 };
 export default Nav;
