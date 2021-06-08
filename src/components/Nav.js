@@ -7,8 +7,8 @@ import {
   
 } from "@fortawesome/free-solid-svg-icons";
 
-const Nav = (props) => {
-  const { Data }=props;
+const Nav = ({Data}) => {
+  //const { Data }=props;
   const imgPic =Data.map((obj)=>{
     const { img } = obj;
     

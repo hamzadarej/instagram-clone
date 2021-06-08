@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 body {
   background-color: snow;
@@ -37,17 +38,15 @@ body {
   border: 1px solid rgb(173, 163, 163);
   display: flex;
   flex-direction: row;
-  padding: 20px 0;
+  padding: 10px 0px;
   width: 100vw;
-  height: 40vh;
+  height: 22rem;
+
   .leftProfil {
-    //border: 1px solid green;
     width: 50%;
-    //font-family: 'Open Sans Condensed', sans-serif;
     font-family: "Inconsolata", monospace;
   }
   .rightProfil {
-    //border: 1px solid black;
     width: 45%;
     display: flex;
     justify-content: center;
@@ -95,7 +94,7 @@ input[type="search"] {
 }
 .stories {
   border: 1px solid rgb(173, 163, 163);
-  height: 14vh;
+  height: 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,9 +107,8 @@ input[type="search"] {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 25px;
+    margin: 0 20px;
     border-radius: 50%;
-    padding: 12px;
   }
 }
 
@@ -118,4 +116,39 @@ input[type="search"] {
   height: 70px;
   width: 70px;
   border-radius: inherit;
+}
+.galleries {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+.galleryImg {
+  width: 20rem;
+  height: 20rem;
+}
+.imageG {
+  width: 22rem;
+  height: 22rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.galleryNav {
+  height: 5rem;
+  border-top: 1px solid rgb(173, 163, 163);
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100vw;
+}
+.galleryNav span {
+  width: 8rem;
 }

@@ -1,5 +1,5 @@
-const Profile = (props) => {
-  const { Data } = props;
+const Profile = ({Data}) => {
+  //const { Data } = props;
   const users = Data.map((obj) => {
     const {
       name,

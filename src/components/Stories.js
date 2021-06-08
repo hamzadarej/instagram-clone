@@ -1,5 +1,5 @@
-const Stories =(props)=>{
-    const {storiesData}=props;
+const Stories =({storiesData})=>{
+    //const {storiesData}=props;
     const storie=storiesData.map((obj)=>{
         const{img}=obj;
 
@@ -12,7 +12,7 @@ const Stories =(props)=>{
 
     )
     }) 
-    return <div class="stories">{storie}</div>;
+    return <div className="stories">{storie}</div>;
 };
 
 export default Stories;
