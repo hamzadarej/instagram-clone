@@ -5,6 +5,7 @@ import {
   faLocationArrow,
   faCompass,
   
+  
 } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = ({Data}) => {
@@ -16,7 +17,7 @@ const Nav = ({Data}) => {
   return (
     <div className="nav">
       <h1 className="content">ⁱⁿˢᵗᵃᵍʳᵃᵐ</h1>
-      <div className="content"> <input placeholder="search" type="search"/></div>
+      <div className="content"> <input placeholder="search" type="search"></input></div>
       <div className="content">
         <FontAwesomeIcon icon={faHome} />
         <FontAwesomeIcon icon={faLocationArrow} />
