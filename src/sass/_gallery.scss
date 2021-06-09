@@ -4,21 +4,21 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  
+    
     flex-wrap: wrap;
   }
   
   .galleryImg {
-    width: 20rem;
-    height: 20rem;
+    width: 220px;
+    height: 220px;
   }
   .imageG:hover {
     opacity: 0.9;
   }
   .imageG {
-    width: 22rem;
-    height: 22rem;
-    position: relative;
+    width: 250px;
+    height: 250px;
+    
     display: flex;
     justify-content: center;
     align-items: center;

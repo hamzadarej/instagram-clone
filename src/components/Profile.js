@@ -22,7 +22,7 @@ const Profile = ({Data}) => {
 
         <div className="leftProfil" key={key}>
           <div className="profilTop">
-            <h1>{name}</h1>
+            <h1 className="profilName">{name}</h1>
             <button>Edit Profile</button>
             <span className="parameter">⚙️</span>
           </div>

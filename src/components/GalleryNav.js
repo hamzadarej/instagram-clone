@@ -8,21 +8,23 @@ import {
 const GalleryNav = () => {
   return (
     <div className="galleryNav">
-      <span>
+      <div className="gallerySpans">
+      
+          <span>
+            <FontAwesomeIcon className="icon" icon={faTh} />&nbsp;<p>POSTS</p>
+          </span>
+      
         <span>
-          <FontAwesomeIcon className="icon" icon={faTh} /> 
-        </span> POSTS
-      </span>
-      <span>
-        <FontAwesomeIcon className="icon" icon={faFileVideo} /> IGTV
-      </span>
-      <span>
-        {" "}
-        <FontAwesomeIcon className="icon" icon={faBookmark} /> SAVED
-      </span>
-      <span>
-        <FontAwesomeIcon className="icon" icon={faUserTag} /> TAGGED
-      </span>
+          <FontAwesomeIcon className="icon" icon={faFileVideo} />&nbsp;<p>IGTV</p>
+        </span>
+        <span>
+          {" "}
+          <FontAwesomeIcon className="icon" icon={faBookmark} />&nbsp;<p>SAVED</p>
+        </span>
+        <span>
+          <FontAwesomeIcon className="icon" icon={faUserTag} />&nbsp;<p>TAGGED</p>
+        </span>
+      </div>
     </div>
   );
 };
