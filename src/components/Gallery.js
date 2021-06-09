@@ -20,6 +20,8 @@ const Gallery = ({ storiesData }) => {
       </div>
     );
   });
-  return <div className="galleries">{gallery}</div>;
+  return <div className="galleryContainer">
+    <div className="galleries">{gallery}</div>
+  </div>;
 };
 export default Gallery;

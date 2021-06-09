@@ -1,66 +1,73 @@
+.galleryContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
 .galleries {
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-    flex-wrap: wrap;
-  }
-  
-  .galleryImg {
-    width: 220px;
-    height: 220px;
-  }
-  .imageG:hover {
-    opacity: 0.9;
-  }
-  .imageG {
-    width: 250px;
-    height: 250px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  
-  .image-hover {
-    background-color: transparent;
-    width: 20rem;
-    height: 20rem;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    opacity: 0;
-    transition: 1s;
-  }
-  .image-hover:hover {
-    opacity: 1;
-    cursor: pointer;
-  }
-  .image-hover span {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 60px;
-    
-  }
-  .image-hover p {
-    color: snow;
-    font-weight: bolder;
-  }
-  
-  .galleryIconHeart {
-   
-    font-size: 30px;
-    color: red;
-  }
-  .galleryIconComment {
-   
-    font-size: 30px;
-    
-    color: lightblue;
-  }
+  width: 60vw;
+  height: inherit;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+.galleryImg {
+  width: 250px;
+  height: 250px;
+}
+.imageG:hover {
+  opacity: 0.9;
+}
+.imageG {
+  width: 280px;
+  height: 280px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-hover {
+  background-color: transparent;
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  opacity: 0;
+  transition: 1s;
+}
+.image-hover:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.image-hover span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60px;
+}
+.image-hover p {
+  color: snow;
+  font-weight: bolder;
+}
+
+.galleryIconHeart {
+  font-size: 30px;
+  color: red;
+}
+.galleryIconComment {
+  font-size: 30px;
+
+  color: lightblue;
+}
