@@ -66,6 +66,9 @@ body {
     justify-content: space-between;
     width: 100%;
   }
+  button {
+    padding: 5px;
+  }
   .parameter {
     font-size: 30px;
   }
@@ -138,6 +141,9 @@ input[type="search"] {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.imageG:hover {
+ opacity: 0.6; 
 }
 .galleryNav {
   height: 5rem;
