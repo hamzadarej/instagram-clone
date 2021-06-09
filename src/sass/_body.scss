@@ -2,15 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
    
   }
   
   body {
     background-color: snow;
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    overflow-x: hidden;
     
   }
