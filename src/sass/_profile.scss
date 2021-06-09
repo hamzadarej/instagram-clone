@@ -1,0 +1,51 @@
+.profil {
+    border: 1px solid rgb(173, 163, 163);
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    width: 100vw;
+    height: 22rem;
+  
+    .leftProfil {
+      width: 50%;
+      font-family: "Inconsolata", monospace;
+    }
+    .rightProfil {
+      width: 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #img {
+      width: 9rem;
+      height: 9rem;
+      border-radius: 50%;
+    }
+    .profilTop,
+    .spans {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    button {
+      padding: 5px;
+    }
+    .parameter {
+      font-size: 30px;
+    }
+    .spans {
+      height: 9vh;
+    }
+    .spans span {
+      font-weight: bold;
+    }
+    .profilText {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 10rem;
+    }
+  }

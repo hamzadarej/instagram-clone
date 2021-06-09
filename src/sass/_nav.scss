@@ -1,0 +1,31 @@
+.nav {
+    border: 1px solid rgb(173, 163, 163);
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+  }
+  .nav h1 {
+    font-size: 40px;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 33vw;
+    //border: 1px black solid;
+    height: 3rem;
+  }
+  .pic {
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  input[type="search"] {
+    height: 2rem;
+    text-align: center;
+  }

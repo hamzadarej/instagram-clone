@@ -1,0 +1,28 @@
+.stories {
+    border: 1px solid rgb(173, 163, 163);
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  
+    .storie {
+      height: 5rem;
+      width: 5rem;
+      border: 1px rgb(173, 163, 163) solid;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 20px;
+      border-radius: 50%;
+    }
+  }
+  .icon {
+    color: gray;
+  }
+  
+  .storieImg {
+    height: 70px;
+    width: 70px;
+    border-radius: inherit;
+  }

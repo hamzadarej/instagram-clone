@@ -1,0 +1,66 @@
+.galleries {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    flex-wrap: wrap;
+  }
+  
+  .galleryImg {
+    width: 20rem;
+    height: 20rem;
+  }
+  .imageG:hover {
+    opacity: 0.9;
+  }
+  .imageG {
+    width: 22rem;
+    height: 22rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .image-hover {
+    background-color: transparent;
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    opacity: 0;
+    transition: 1s;
+  }
+  .image-hover:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .image-hover span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    
+  }
+  .image-hover p {
+    color: snow;
+    font-weight: bolder;
+  }
+  
+  .galleryIconHeart {
+   
+    font-size: 30px;
+    color: red;
+  }
+  .galleryIconComment {
+   
+    font-size: 30px;
+    
+    color: lightblue;
+  }
