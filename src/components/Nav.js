@@ -15,7 +15,7 @@ const Nav = ({Data}) => {
     
  
   return (
-    <div className="nav">
+    <div className="nav" id="nav">
       <h1 className="content">ⁱⁿˢᵗᵃᵍʳᵃᵐ</h1>
       <div className="content"> <input placeholder="search" type="search"></input></div>
       <div className="content">

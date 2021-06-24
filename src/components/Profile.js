@@ -16,11 +16,11 @@ const Profile = ({Data}) => {
     } = obj;
     return (
       <div className="profil">
-        <div className="rightProfil">
-          <img src={img} alt="profilphoto" id="img"></img>
+        <div className="rightProfil" id="rightP">
+          <img src={img} alt="profilphoto" className="profilImg" id="img"></img>
         </div>
 
-        <div className="leftProfil" key={key}>
+        <div className="leftProfil" id="leftP" key={key}>
           <div className="profilTop">
             <h1 className="profilName">{name}</h1>
             <button>Edit Profile</button>

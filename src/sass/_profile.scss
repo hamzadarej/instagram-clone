@@ -16,7 +16,7 @@
       justify-content: center;
       align-items: center;
     }
-    #img {
+    .profilImg {
       width: 9rem;
       height: 9rem;
       border-radius: 50%;
@@ -28,6 +28,7 @@
       align-items: center;
       justify-content: center;
       justify-content: space-between;
+      flex-wrap: wrap;
       width: 100%;
     }
     button {
@@ -47,5 +48,9 @@
       flex-direction: column;
       justify-content: space-between;
       height: 10rem;
+    }
+    .nav {
+      border: rgb(165, 50, 50) 1px solid;
+      
     }
   }

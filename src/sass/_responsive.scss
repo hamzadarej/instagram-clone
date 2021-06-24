@@ -1,17 +1,53 @@
 @media only screen and (max-width: 1024px) {
-    .galleryNav span p {
-        display: none;
-        
-    } 
-    .storie {
-        margin: 0 2px;
-    }
-    .profilName {
-       font-size: x-large;
-       text-shadow: 1px 1px 1px gray ;
-    }
-    .galleries {
-        width: 100vw;
-    }
-
+  .galleryNav span p {
+    display: none;
+  }
+  .storie {
+    margin: 0 2px;
+  }
+  .profilName {
+    font-size: x-large;
+    text-shadow: 1px 1px 1px gray;
+  }
+  .galleries {
+    width: 100vw;
+  }
 }
+@media only screen and (max-width: 400px) {
+  .storieImg {
+    width: 40px;
+    height: 40px;
+  }
+  .storie {
+    width: 41px;
+    height: 41px;
+  }
+  #img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+  }
+  #rightP {
+      
+      width: 5.5rem;
+      height: 6rem;
+  }
+  #leftP {
+      width: 10rem;
+      
+      font-size: small;
+      }
+      .profilTop {
+          
+          height: 6rem;
+      }
+      .profilText {
+         
+          position: absolute;
+          left: 10px;
+      }
+      #nav {
+          width: 100vw;
+      }
+      
+    }
