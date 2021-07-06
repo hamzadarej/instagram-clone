@@ -14,6 +14,10 @@
   }
 }
 @media only screen and (max-width: 400px) {
+  body {
+    overflow: hidden;
+    box-sizing: border-box;
+  }
   .storieImg {
     width: 40px;
     height: 40px;
@@ -33,7 +37,7 @@
       height: 6rem;
   }
   #leftP {
-      width: 10rem;
+      width: 15rem;
       
       font-size: small;
       }
