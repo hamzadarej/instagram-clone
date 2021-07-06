@@ -15,12 +15,20 @@
 }
 @media only screen and (max-width: 400px) {
   body {
-    overflow: hidden;
+   
     box-sizing: border-box;
+    width: 100vw;
+    
+    
+    
   }
   .storieImg {
     width: 40px;
     height: 40px;
+  }
+  .profil {
+    width: 100vw;
+    padding: 0;
   }
   .storie {
     width: 41px;
@@ -30,14 +38,15 @@
     width: 80px;
     height: 80px;
     border: 1px solid red;
+    
   }
   #rightP {
       
-      width: 5.5rem;
+      width: 10rem;
       height: 6rem;
   }
   #leftP {
-      width: 15rem;
+      width: 10rem;
       
       font-size: small;
       }
