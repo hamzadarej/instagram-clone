@@ -7,5 +7,5 @@ Html,sass,react,font-awesome
     <img src="./public/images/website-homepage.png" alt="home-page" border="2px" align="center">,
     
 ## Responsive 
- 
-    <img src="./public/images/responsive-homepage.png" alt="home-page" border="2px" align="center"> 
+ <p align="center">
+    <img src="./public/images/responsive-homepage.png" alt="home-page" border="2px" align="center">,
