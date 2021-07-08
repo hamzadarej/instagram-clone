@@ -8,4 +8,4 @@ Html,sass,react,font-awesome
     
 ## Responsive 
  
-    <img src="./public/images/responsive-homepage.png" alt="home-page" width="1821px" height="950px"  align="center"> 
+    <img src="./public/images/responsive-homepage.png" alt="home-page" width="1821px" height="950px" border="2px" align="center"> 
