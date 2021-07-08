@@ -1,6 +1,6 @@
 ## Intagram-clone
-## Tools
-Html,sass,react,font-awesome
+## Built With
+![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 ## Webpage  
 <p align="center">
