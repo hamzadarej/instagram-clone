@@ -6,7 +6,7 @@ const Gallery = ({ storiesData }) => {
 
     return (
       <div className="imageG">
-        <img src={img} className="galleryImg"></img>
+        <img src={img} alt="bgImage" className="galleryImg"/>
         <div className="image-hover">
           <span>
             <FontAwesomeIcon className="galleryIconHeart" icon={faHeart} /> 

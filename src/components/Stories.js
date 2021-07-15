@@ -7,7 +7,7 @@ const Stories =({storiesData})=>{
     
     return (
         
-<div class="storie"><img src={img} className="storieImg"></img></div>
+<div class="storie"><img src={img} alt="stories" className="storieImg"></img></div>
 
 
     )
