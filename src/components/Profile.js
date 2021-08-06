@@ -1,3 +1,5 @@
+
+import img1 from "../img/profil-pic.jpg"
 const Profile = ({Data}) => {
   //const { Data } = props;
   const users = Data.map((obj) => {
@@ -7,7 +9,6 @@ const Profile = ({Data}) => {
       followers,
       key,
       following,
-      img,
       adress,
       live,
       hobby,
@@ -17,7 +18,7 @@ const Profile = ({Data}) => {
     return (
       <div className="profil">
         <div className="rightProfil" id="rightP">
-          <img src={img} alt="profilphoto" className="profilImg" id="img"></img>
+          <img src={img1} alt="profilphoto" className="profilImg" id="img"></img>
         </div>
 
         <div className="leftProfil" id="leftP" key={key}>

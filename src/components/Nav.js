@@ -7,6 +7,7 @@ import {
   
   
 } from "@fortawesome/free-solid-svg-icons";
+import img1 from "../img/profil-pic.jpg"
 
 const Nav = ({Data}) => {
   //const { Data }=props;
@@ -24,7 +25,7 @@ const Nav = ({Data}) => {
         <FontAwesomeIcon icon={faCompass} />
         <FontAwesomeIcon icon={faHeart} />
         <span  ></span>
-        <img src={img} alt="profilphoto" className="pic"></img>
+        <img src={img1} alt="profilphoto" className="pic"></img>
       </div>
      
     </div>
