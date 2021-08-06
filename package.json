@@ -1,7 +1,7 @@
 {
   "name": "instagram-clone",
   "version": "0.1.0",
-  "homepage": "https://hamzadarej.github.io/instagram-clone",
+  "homepage": "https://instagram-clone-omega.vercel.app/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
